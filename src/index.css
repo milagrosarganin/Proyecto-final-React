@@ -45,3 +45,11 @@ body {
 .header-tagline {
   color: var(--latte);
 }
+
+.site-nav {
+  background-color: var(--coffee);
+}
+
+.site-nav .nav-link.active {
+  color: var(--accent) !important;
+}
