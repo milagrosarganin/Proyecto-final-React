@@ -1,5 +1,7 @@
+import Header from './components/Header.jsx'
+
 function App() {
-  return <h1>Grano &amp; Taza</h1>
+  return <Header />
 }
 
 export default App

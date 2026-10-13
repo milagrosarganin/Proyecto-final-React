@@ -30,3 +30,18 @@ body {
 .text-coffee {
   color: var(--coffee);
 }
+
+.site-header {
+  background-color: var(--coffee-dark);
+  color: var(--cream);
+}
+
+.brand {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1.75rem;
+  color: var(--cream);
+}
+
+.header-tagline {
+  color: var(--latte);
+}
