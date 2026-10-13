@@ -85,3 +85,12 @@ body {
   justify-content: center;
   font-weight: bold;
 }
+
+.hero {
+  background: linear-gradient(135deg, var(--coffee-dark), var(--coffee));
+  color: var(--cream);
+}
+
+.feature {
+  background-color: var(--cream);
+}
