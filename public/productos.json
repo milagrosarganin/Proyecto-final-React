@@ -1,0 +1,11 @@
+[
+  { "id": 1, "nombre": "Café en grano Colombia", "categoria": "Café", "precio": 9800, "stock": 15, "imagen": "/img/cafe-colombia.svg", "descripcion": "Café de especialidad de origen único, tostado medio. Notas a caramelo, cacao y frutos rojos. Bolsa de 250 g." },
+  { "id": 2, "nombre": "Café en grano Etiopía", "categoria": "Café", "precio": 11500, "stock": 10, "imagen": "/img/cafe-etiopia.svg", "descripcion": "Café de Yirgacheffe, tostado claro. Floral y cítrico, ideal para métodos de filtrado. Bolsa de 250 g." },
+  { "id": 3, "nombre": "Café molido Brasil", "categoria": "Café", "precio": 14200, "stock": 20, "imagen": "/img/cafe-brasil.svg", "descripcion": "Blend brasileño de tostado medio-oscuro, molienda media. Cuerpo intenso con notas a nuez y chocolate. Bolsa de 500 g." },
+  { "id": 4, "nombre": "Cafetera italiana Moka", "categoria": "Cafeteras", "precio": 32900, "stock": 8, "imagen": "/img/moka.svg", "descripcion": "Cafetera de aluminio para 6 tazas. Apta para cocinas a gas y eléctricas. Café intenso estilo espresso en minutos." },
+  { "id": 5, "nombre": "Prensa francesa 600 ml", "categoria": "Cafeteras", "precio": 24500, "stock": 12, "imagen": "/img/prensa.svg", "descripcion": "Prensa de vidrio borosilicato y acero inoxidable con filtro de malla fina. Rinde 3 a 4 tazas." },
+  { "id": 6, "nombre": "Molinillo manual", "categoria": "Accesorios", "precio": 27800, "stock": 6, "imagen": "/img/molinillo.svg", "descripcion": "Molinillo de madera con muelas de cerámica regulables. Permite moler desde espresso hasta prensa francesa." },
+  { "id": 7, "nombre": "Dripper V60 + filtros", "categoria": "Accesorios", "precio": 18900, "stock": 14, "imagen": "/img/dripper.svg", "descripcion": "Dripper cónico de cerámica con 40 filtros de papel incluidos. Para preparar café filtrado de forma manual." },
+  { "id": 8, "nombre": "Taza de cerámica 300 ml", "categoria": "Tazas", "precio": 7500, "stock": 25, "imagen": "/img/taza.svg", "descripcion": "Taza de cerámica esmaltada con plato. Apta para microondas y lavavajillas." },
+  { "id": 9, "nombre": "Jarro térmico 450 ml", "categoria": "Tazas", "precio": 16300, "stock": 18, "imagen": "/img/jarro.svg", "descripcion": "Jarro de acero inoxidable con doble pared. Mantiene el café caliente hasta 6 horas. Tapa a prueba de derrames." }
+]
