@@ -94,3 +94,13 @@ body {
 .feature {
   background-color: var(--cream);
 }
+
+.product-category {
+  color: var(--coffee) !important;
+  letter-spacing: 0.05em;
+}
+
+.product-card {
+  border: none;
+  box-shadow: 0 2px 8px rgba(59, 35, 20, 0.08);
+}
