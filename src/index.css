@@ -63,3 +63,25 @@ body {
   color: var(--cream);
   font-family: Georgia, 'Times New Roman', serif;
 }
+
+.team-card {
+  background-color: var(--cream);
+  border: none;
+}
+
+.team-role {
+  color: var(--coffee) !important;
+  letter-spacing: 0.05em;
+}
+
+.team-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: var(--coffee);
+  color: var(--cream);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
