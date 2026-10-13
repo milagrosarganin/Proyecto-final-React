@@ -53,3 +53,13 @@ body {
 .site-nav .nav-link.active {
   color: var(--accent) !important;
 }
+
+.site-footer {
+  background-color: var(--coffee-dark);
+  color: var(--latte);
+}
+
+.footer-title {
+  color: var(--cream);
+  font-family: Georgia, 'Times New Roman', serif;
+}
