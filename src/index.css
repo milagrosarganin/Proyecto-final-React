@@ -67,6 +67,11 @@ body {
 .team-card {
   background-color: var(--cream);
   border: none;
+  transition: transform 0.2s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-4px);
 }
 
 .team-role {
@@ -103,6 +108,13 @@ body {
 .product-card {
   border: none;
   box-shadow: 0 2px 8px rgba(59, 35, 20, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  animation: fadeIn 0.4s ease both;
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(59, 35, 20, 0.18);
 }
 
 .cart-widget {
@@ -115,10 +127,39 @@ body {
   position: absolute;
   top: -6px;
   right: -12px;
+  animation: pop 0.3s ease;
 }
 
 .cart-thumb {
   width: 64px;
   height: 48px;
   object-fit: cover;
+}
+
+.fade-in {
+  animation: fadeIn 0.4s ease both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pop {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.4); }
+  100% { transform: scale(1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
 }

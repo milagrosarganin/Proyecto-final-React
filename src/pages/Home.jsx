@@ -10,7 +10,7 @@ const features = [
 function Home() {
   return (
     <Container>
-      <section className="hero rounded-4 p-4 p-md-5 mb-5">
+      <section className="hero rounded-4 p-4 p-md-5 mb-5 fade-in">
         <h1 className="display-5 fw-bold">Bienvenido a Grano &amp; Taza</h1>
         <p className="lead mb-4">
           Café de especialidad, cafeteras y accesorios para preparar en casa el mejor café.

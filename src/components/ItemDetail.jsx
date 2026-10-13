@@ -15,7 +15,7 @@ function ItemDetail({ product }) {
   }
 
   return (
-    <Row className="g-4 align-items-center">
+    <Row className="g-4 align-items-center fade-in">
       <Col md={6}>
         <img src={product.imagen} alt={product.nombre} className="img-fluid rounded-4 shadow-sm w-100" />
       </Col>

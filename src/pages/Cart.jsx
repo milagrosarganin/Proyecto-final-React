@@ -8,7 +8,7 @@ function Cart() {
 
   if (cart.length === 0) {
     return (
-      <Container className="text-center py-5">
+      <Container className="text-center py-5 fade-in">
         <h1 className="page-title">Tu carrito está vacío</h1>
         <p>Todavía no agregaste productos.</p>
         <Button as={Link} to="/productos" variant="dark" className="btn-coffee">
@@ -19,7 +19,7 @@ function Cart() {
   }
 
   return (
-    <Container>
+    <Container className="fade-in">
       <h1 className="page-title mb-4">Carrito</h1>
       <Table responsive className="align-middle cart-table">
         <thead>
