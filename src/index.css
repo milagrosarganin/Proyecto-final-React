@@ -116,3 +116,9 @@ body {
   top: -6px;
   right: -12px;
 }
+
+.cart-thumb {
+  width: 64px;
+  height: 48px;
+  object-fit: cover;
+}
