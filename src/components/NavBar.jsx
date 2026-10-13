@@ -1,5 +1,6 @@
 import { Container, Nav, Navbar } from 'react-bootstrap'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
+import CartWidget from './CartWidget.jsx'
 
 function NavBar() {
   return (
@@ -13,6 +14,9 @@ function NavBar() {
             <Nav.Link as={NavLink} to="/carrito">Carrito</Nav.Link>
           </Nav>
         </Navbar.Collapse>
+        <Link to="/carrito" className="ms-auto" aria-label="Ir al carrito">
+          <CartWidget />
+        </Link>
       </Container>
     </Navbar>
   )
